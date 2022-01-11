@@ -1,0 +1,271 @@
+@font-face {
+    font-family: ChunkFive;
+    src: url(ChunkFive-Regular.otf);
+}
+
+/* body{
+    font-family: sans-serif;
+    background-size: 100%;
+    margin: 0;
+    overflow-x: hidden;
+} */
+
+
+/* .container-fluid .navbar-brand{
+    
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: 'ChomskyRegular';
+    text-align: center;
+    margin: auto;
+} */
+
+#navbar-brand{
+    font-family: 'ChomskyRegular';
+    font-size: 2rem;
+    color: coral;
+}
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev , .owl-next{
+    position: absolute;
+    top: 20%;
+}
+.owl-prev:hover , .owl-next:hover{
+    background: none;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 50px;
+    display: inline-block;
+}
+
+.owl-theme , .owl-nav[class*="owl-"]:hover {
+    background: transparent;
+}
+
+
+
+.bookmark-header{
+    padding-top: 7px;
+    margin: auto;
+    width: 250px;
+    height: 70px !important;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.bookmark-header ul{
+    padding: 0;
+}
+
+.bookmark-header li{
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.bookmark-header a{
+    margin: auto;
+    font-size: 30px;
+    font-family: 'ChunkFive';
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+}
+
+#hilzam {
+    margin: auto;
+    font-size: 30px;
+    font-family: 'ChunkFive';
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+}
+#hilzam button{
+    background: none!important;
+}
+
+
+.bookmark-main{
+    padding: 10px 0 10px 20px;
+    margin: auto;
+    width: 140px;
+    border: 2px solid #575651;
+    list-style-position: inside;
+    line-height: 22px;
+    text-align: left;
+}
+
+.bookmark-main .jurnal{
+    position: relative;
+    padding-bottom: 2px;
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.bookmark-main ul{
+    padding-left: 0;
+}
+
+.bookmark-main li{
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: '☞';
+}
+
+.bookmark-main li a{
+    color: black;
+}
+
+.bookmark-footer {
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bookmark-footer i{
+    color: black;
+    padding: auto;
+    margin: 0 4px;
+}
+
+.copyright p{
+    text-align: center;
+}
+.featured-items {
+    padding: 0 10px;
+    border-right: 3px solid #575651;
+    border-left: 3px solid #575651;
+}
+
+.featured-items h2{
+    font-family: 'ChunkFive';
+    font-size: 45px;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #575651;
+}
+
+.featured-items article h3{
+    font-weight: bold;
+}
+
+.featured-items article h3:hover{
+    text-decoration: underline #575651;
+}
+
+.featured-items article h6 a{
+    font-weight: bold;
+}
+
+.featured-items article span:hover{
+    text-decoration: underline #575651;
+}
+
+.featured-genre {
+    margin: 0 5% 10px 20px;
+    padding: 10px 10px 20px 10px;
+    width: 35%;
+    border: 2px solid #575651;
+    background-color: white;
+    float: left;
+}
+
+.genre-desc{
+    border-bottom: 4px double #575651;
+    position: relative;
+}
+
+.featured-story{
+    position: relative;
+}
+
+.featured-story article h3 a{
+    text-decoration: none;
+}
+.featured3-items{
+    padding: 20px;
+    
+}
+.featured3-items article {
+    margin-top: 10px;
+    border-bottom: 4px solid #575651;
+    border-right: 4px double #575651;
+}
+
+.border-Top{
+    border-top: 3px solid #575651;
+    position: absolute;
+    top: 0;
+    right: 20%;
+    left: 20%;
+}
+
+.border-Bot{
+    border-bottom: 3px solid #575651;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    left: 10%;
+}
+
+.jurnal .border-Bot{
+    border-bottom: 4px double #575651;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    left: 0;
+}
+
+
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-registration input{
+      border-radius: 0;
+      margin-bottom: -1px;
+  }
+
+  #profilePicture{
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: 100%;
+  }
+
+  
